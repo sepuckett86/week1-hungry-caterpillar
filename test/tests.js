@@ -1,8 +1,6 @@
 import addCircleDiv from '../src/add-circle-div.js';
 const test = QUnit.test;
 
-
-
 test('adds div with circle and color class to dragon', assert => {
     // arrange
     const circleClass = 'circle';
