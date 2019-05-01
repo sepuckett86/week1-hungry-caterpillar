@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+section {
+    margin-top: 20px;
+}
+
+img {
+    height: 100px;
+}
+
+h1, h2 {
+    font-family: 'Gugi', cursive;
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    margin-left: -20px;
+    border-radius: 100%;
+    border: black solid 2px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.red, #burger-button {
+    background-color: red;
+}
+
+.blue, #fruit-button {
+    background-color: blue;
+}
+
+.green, #lasagna-button {
+    background-color: green;
+}
+
+.food-button {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.food-button:hover {
+    cursor: pointer;
+}
